@@ -10,7 +10,7 @@ module.exports = {
     nickName: ["moni"],
 
 onLaunch: async function ({ api, event, target }) {
-    const baseUrl = "https://ccprojectprivilege.adaptable.app";
+    const baseUrl = "http://de01.uniplex.xyz:5611";
 
     if (!target[0]) {
         return api.sendMessage("Please specify a command: `add`, `list`, or `search`.", event.threadID, event.messageID);
